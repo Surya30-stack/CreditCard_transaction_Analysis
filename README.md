@@ -85,7 +85,7 @@ Based on the above limit and from the output we can see that "Scott Martin" has 
 
 ## Data Visualization:
 I used PowerBI tool and created captivating visualizations to display the results of my analysis. Feel free to checkout my visualizations and insights.
-
+[here.](https://app.powerbi.com/groups/me/reports/02693ce9-c452-4f34-ac0d-5a385bf59ef2/c252f4d208748936b8e6?redirectedFromSignup=1&experience=power-bi)
 
 
 ## Conclusion:
