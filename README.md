@@ -59,6 +59,16 @@ Age more than 56+ has more transaction count and spending compared to others and
 #### Insights:
 From the analysis it is clear that female users take about (54.5%) of total transaction amount and in High spender category they were about (55%) which is again higher than male. Top high spenders in females are Environmental consultant of about ($4,71,982).
 
+6.Compare Spending Before and After Payday:
+#### Insights:
+Total spending is higher before payday than after payday, indicating that people tend to spend more when they anticipate their next paycheck.Average transaction amounts remain nearly the same before and after payday, suggesting spending habits per transaction are consistent.The surge in total spending before payday may reflect bill payments, necessary expenses, or impulse purchases before receiving the next paycheck.After payday, spending may drop as individuals regain financial stability and budget for upcoming expenses.
+
+7.Spending Habits of High-Frequency Customers:
+#### Insights:
+By keeping a limit as above 2000 for high frequency customers we can analyse that their average transaction amount was in range of $46-$85 and their total spending was around $93000. By this we can see that high frequency customers usually keep them down in spending which eventually tend to increase the total number of transaction till the card limit.
+
+
+
 
 
 
