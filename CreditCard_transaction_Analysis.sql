@@ -2,8 +2,8 @@ create schema credit_Transaction;
 Use credit_Transaction;
 
 SET GLOBAL max_allowed_packet = 1073741824;  
-SET GLOBAL net_read_timeout = 800;  -- 10 minutes
-SET GLOBAL net_write_timeout = 800; -- 10 minutes
+SET GLOBAL net_read_timeout = 800;  
+SET GLOBAL net_write_timeout = 800; 
 SET GLOBAL wait_timeout = 800;
 SET GLOBAL interactive_timeout = 800;
 
@@ -205,7 +205,7 @@ WITH HighFrequencyCustomers AS (
         FROM transactions
         GROUP BY Full_Name
     ) AS CustomerTransactionCount
-    WHERE transaction_count > 2000  -- High-frequency customers
+    WHERE transaction_count > 2000  
 )
 SELECT 
     hfc.Full_Name,
