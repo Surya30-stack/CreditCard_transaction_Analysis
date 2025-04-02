@@ -282,6 +282,15 @@ FROM Transactions t1
 JOIN Avg_Spending_CTE cte ON t1.Full_name = cte.Full_name
 WHERE t1.amt > (cte.Avg_Spending * 5);
 
+#total fraud trnsactions by customers:
+SELECT 
+    Full_name, 
+    COUNT(*) AS fraud_count
+FROM transactions
+WHERE is_fraud = 1
+GROUP BY Full_name
+ORDER BY fraud_count DESC;
+
 
 
 truncate transactions;
