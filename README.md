@@ -26,7 +26,7 @@ I used both SQL and Python for analysis.
 
 1.Top Spending Categories by Transaction Volume & Amount:
 We’ll calculate both Transaction Volume (Total number of transactions per category) and Total Amount Spent (Sum of all transaction amounts per category).
-### Insights:
+#### Insights:
 #### Highest Transaction Volume:
 Gas & Transport has the highest number of transactions (1,06,430), indicating frequent spending, possibly on fuel or transportation services.
 #### Highest Total Spending:
@@ -40,15 +40,27 @@ This indicates customers don't use credit card for travel related transactions.
 
 2.How Spending Varies Over Time (Daily, Weekly):
 Analyze the spending pattern using time-based aggregations,
-### Insights:
+#### Insights:
 #### Daily Trends Observations:
 Spending follows a clear cyclical pattern, indicating periodic peaks and dips.There is a noticeable spike around late 2019 to early 2020, possibly due to seasonal events like holidays or major purchases.Post-peak, spending decreases but retains some periodic fluctuations.
 #### Seasonal Trends:
 A significant spike at the start of 2020 suggests a holiday or year-end effect.The overall trend shows growth in spending over time, with fluctuations becoming more pronounced.
 
 3.Peak Spending Hours in a Day:
-### Insights:
+#### Insights:
 Peak spending occurs between 10 PM - 11 PM, likely due to online shopping or bill payments. Spending gradually increases from 12 PM onwards, indicating more retail and entertainment transactions. Lowest spending happens between 4 AM - 8 AM, aligning with sleeping hours. Evening hours drive the most transactions, making it the prime spending period.
+
+4.Group by Age and Show Total Transaction Amount:
+I grouped the age by 18-25,26-35,36-45,46-55,56+ by doing these I analysed that,
+#### Insights:
+Age more than 56+ has more transaction count and spending compared to others and the least of the both were by customers age around 18-25. By this we can conclude that card was mostly purchased by customers only after completing graduation or joining a job and the age of 56+ use a lot in grocery kind of category where it is difficult for them to go to store for purchase everytime.
+
+5.Customer Segments: Based on Gender & High Spenders vs. Low Spenders:
+#### Insights:
+From the analysis it is clear that female users take about (54.5%) of total transaction amount and in High spender category they were about (55%) which is again higher than male. Top high spenders in females are Environmental consultant of about ($4,71,982).
+
+
+
 
 
 
