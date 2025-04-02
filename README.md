@@ -69,9 +69,9 @@ By keeping a limit as above 2000 for high frequency customers we can analyse tha
 
 8.Based Location_spending:
 #### Insights:
-City-Level Spending Trends¶
-Meridian, Houston, and Brandon have the highest total spending.
-Spending is concentrated in a few key urban areas, indicating higher economic activity.
+In City-Level Spending Trends Houston, and Phoniex have the highest total spending. Spending is concentrated in a few key urban areas, indicating higher economic activity and in State-Level Spending Trends Texas (TX), California (CA), and Florida (FL) lead in total spending. Most of the transaction and high amount are from east and south side of North America.
+
+
 
 
 
