@@ -21,7 +21,7 @@ Initially I done mergeing the required columns in the power query and decreased 
 I used SQL Data Manipulation (CRUD Operations) ,Transformation Aggregate Functions (SUM, COUNT, AVG),Time Functions Conditional Logic (CASE statements) Grouping and Ordering Data. In this Creating new columns based on existing data I added a new age column into the table which is very usefull in analysis. And I Generated aggregates to find the transaction frequency per customer and total spending per customer.
 At the end of this process the total number of rows have been reduced to 10,48,575.
 
-## Exploratory Data analysis:
+## Exploratory Data analysis EDA:
 I used both SQL and Python for analysis.
 
 1.Top Spending Categories by Transaction Volume & Amount:
@@ -71,8 +71,26 @@ By keeping a limit as above 2000 for high frequency customers we can analyse tha
 #### Insights:
 In City-Level Spending Trends Houston, and Phoniex have the highest total spending. Spending is concentrated in a few key urban areas, indicating higher economic activity and in State-Level Spending Trends Texas (TX), California (CA), and Florida (FL) lead in total spending. Most of the transaction and high amount are from east and south side of North America.
 
+## Fraud Detection:
+
+1.Fraud Detection Methods Using UNIX Time:
+The UNIX time in the data likely represents the exact time the transaction occurred at the merchant's system.This helps in tracking merchant-side transaction processing times, fraud detection, or reconciliation.
+#### Insights:
+Based on the Unix time I had set a limit that if transaction count exceeds 5 in 10 minutes gap that it is fruad alert but according to the given data there is no record according to this case statement.
+
+2.Transactions at Unusual Hours:
+I had set a limit that if transaction is done around 12am-5am in daily basis or most transaction it has a high chance to be fraud.
+#### Insights:
+Based on the above limit and from the output we can see that "Scott Martin" has done about 750 transactions from his 3697 transaction in these time which has a high chance of fraud transaction.
+
+## Data Visualization:
+I used PowerBI tool and created captivating visualizations to display the results of my analysis. Feel free to checkout my visualizations and insights.
 
 
+
+## Conclusion:
+Through exploratory data analysis (EDA) on credit card transaction data, we uncovered key spending patterns, customer behaviors, and potential fraud indicators. The analysis revealed that Gas & Transport had the highest transaction volume, while Grocery (POS) led in total spending, indicating essential expenses drive significant card usage. Shopping behaviors highlighted a preference for online purchases with higher average transaction values. Peak spending hours were observed between 10 PM - 11 PM, with spending gradually increasing from midday. Older age groups (56+) showed the highest spending, particularly in grocery-related purchases, reflecting their reliance on credit cards for convenience. Demographic segmentation indicated that female users contributed to 54.5% of total spending and dominated the high-spender category. Spending behavior before and after payday revealed a surge in transactions before salary credits, suggesting financial anticipation influences spending patterns.Geographically, Texas, California, and Florida led in transaction volume and amount, with spending concentrated in key metropolitan areas.In terms of fraud detection, analyzing transaction timestamps helped flag unusual activity.
+Overall, this analysis provides valuable insights into consumer behavior, spending trends, and fraud risks. It highlights the importance of understanding transaction patterns to enhance business strategies, optimize customer targeting, and improve fraud detection.
 
 
 
