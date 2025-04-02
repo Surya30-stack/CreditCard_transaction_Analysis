@@ -67,6 +67,13 @@ Total spending is higher before payday than after payday, indicating that people
 #### Insights:
 By keeping a limit as above 2000 for high frequency customers we can analyse that their average transaction amount was in range of $46-$85 and their total spending was around $93000. By this we can see that high frequency customers usually keep them down in spending which eventually tend to increase the total number of transaction till the card limit.
 
+8.Based Location_spending:
+#### Insights:
+City-Level Spending Trends¶
+Meridian, Houston, and Brandon have the highest total spending.
+Spending is concentrated in a few key urban areas, indicating higher economic activity.
+
+
 
 
 
