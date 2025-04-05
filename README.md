@@ -13,13 +13,13 @@ Anomaly Detection : Identify unusual spending behaviors and potential fraud.
 The Credit card transaction data can be downloaded [here.](https://www.kaggle.com/datasets/priyamchoksi/credit-card-transactions-dataset/data). The total number of rows were 13,00,354.
 ### Key Steps in Data Transformation:
 #### Data cleaning & formatting:
-To process and clean the data, I picked Excel using Power Qwery.
-Initially I done mergeing the required columns in the power query and decreased the total number of columns. THe change the data type of few columns which were not correct followed by removing duplicates and NULL values in the table. With the help of add column in the query I separated the date/time column and assigned the required data type for the fields. Deleted Unwanted rows which is irrelevant for the analysis. The image of the entire process is addded below 
+To process and clean the data, I picked Excel using Power Query.
+Initially I done mergeing the required columns in the power query and decreased the total number of columns. Then I changed the data type of few columns which were not correct followed by removing duplicates and NULL values in the table. With the help of add column in the query I separated the date/time column and assigned the required data type for the fields. Deleted Unwanted rows which is irrelevant for the analysis. The image of the entire process is addded below 
 ![image](https://github.com/Surya30-stack/CreditCard_transaction_Analysis/blob/main/Excel%20Data%20Cleaning%20process.png?raw=true)  
 
 #### Feature Engineering:
 I used SQL Data Manipulation (CRUD Operations) ,Transformation Aggregate Functions (SUM, COUNT, AVG),Time Functions Conditional Logic (CASE statements) Grouping and Ordering Data. In this Creating new columns based on existing data I added a new age column into the table which is very usefull in analysis. And I Generated aggregates to find the transaction frequency per customer and total spending per customer.
-At the end of this process the total number of rows have been reduced to 10,48,575.
+At the end of this data cleaning and transformation process the total number of rows have been reduced to 10,48,575.
 
 ## Exploratory Data analysis EDA:
 I used both SQL and Python for analysis.
